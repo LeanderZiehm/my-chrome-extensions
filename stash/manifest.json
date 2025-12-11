@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Read Later Saver",
+  "version": "1.0",
+  "description": "Send current URL to API to save for reading later.",
+  "permissions": [
+    "tabs",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "Save to Read Later"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+	"icons":{"48":"icon48.png", "128":"icon128.png"}
+}
