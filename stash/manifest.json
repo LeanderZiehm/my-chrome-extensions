@@ -12,18 +12,5 @@
   ],
   "background": {
     "service_worker": "background.js"
-  },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["contentScript.js"]
-    }
-  ],
-  "web_accessible_resources": [{
-    "resources": [
-      "icons/*.png",
-      "sounds/*.mp3"
-    ],
-    "matches": ["<all_urls>"]
-  }]
+  }
 }
