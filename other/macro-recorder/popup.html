@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        width: 320px;
+        padding: 10px;
+      }
+      button {
+        margin-left: 5px;
+        cursor: pointer;
+      }
+      select {
+        margin-left: 5px;
+      }
+      .macro {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #ccc;
+        padding: 5px;
+        margin-top: 5px;
+        border-radius: 3px;
+      }
+      .macro-name {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Click Macro Recorder</h3>
+    <button id="start">Start Recording</button>
+    <div id="macros"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

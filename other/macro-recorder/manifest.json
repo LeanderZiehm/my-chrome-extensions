@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Click Macro Recorder",
+  "version": "1.2",
+  "description": "Record click-only macros with a persistent overlay",
+  "permissions": ["storage", "tabs", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "commands": {
+  "run-slot-1": {
+    "suggested_key": { "default": "Ctrl+Shift+1" },
+    "description": "Play macro slot 1"
+  },
+  "run-slot-2": {
+    "suggested_key": { "default": "Ctrl+Shift+2" },
+    "description": "Play macro slot 2"
+  }
+}
+
+}

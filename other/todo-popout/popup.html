@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Send POST</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    input { width: calc(100% - 20px); padding: 8px; margin-bottom: 10px; }
+    button { padding: 8px 12px; cursor: pointer; }
+    .close-btn {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    #container { position: relative; }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <span class="close-btn" id="closeBtn">×</span>
+    <input type="text" id="inputField" placeholder="Enter text..." />
+    <button id="submitBtn">Send</button>
+    <div id="status"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
