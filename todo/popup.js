@@ -63,7 +63,7 @@ inputField.addEventListener("keydown", (e) => {
   if (e.key === "Enter") handleSend();
 });
 
-// // Auto-focus input when popup opens
-// document.addEventListener("DOMContentLoaded", () => {
-//   inputField.focus();
-// });
+// Auto-focus input when popup opens
+document.addEventListener("DOMContentLoaded", () => {
+  inputField.focus();
+});
