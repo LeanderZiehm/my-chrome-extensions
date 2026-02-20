@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Auto Clicker",
+  "version": "1.0",
+  "description": "Configurable autoclicker with countdown and random deviation.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
